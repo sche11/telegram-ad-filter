@@ -1,9 +1,9 @@
-## Telegram Ad Filter
+# Telegram Ad Filter
 
-[![version](https://img.shields.io/github/tag/VChet/telegram-ad-filter.svg?label=version)](https://github.com/VChet/telegram-ad-filter/tags)
-[![neostandard javascript style](https://img.shields.io/badge/code_style-neostandard-7fffff?style=flat)](https://github.com/neostandard/neostandard)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/VChet/telegram-ad-filter)
+[![version][version-img]][version-href]
+[![install][install-img]][install-href]
+![prs-welcome][prs-welcome-img]
+[![ask DeepWiki][deep-wiki-img]][deep-wiki-href]
 
 UserScript for [Telegram WebK](https://web.telegram.org/k/) that minimizes messages containing words from the [ad-word list](https://github.com/VChet/telegram-ad-filter/blob/master/blacklist.json).
 
@@ -24,13 +24,18 @@ UserScript for [Telegram WebK](https://web.telegram.org/k/) that minimizes messa
 
 If you have any ideas, bug reports, or feature requests, feel free to [contribute](https://github.com/VChet/telegram-ad-filter/pulls) or report [issues](https://github.com/VChet/telegram-ad-filter/issues).
 
-## Documentation
-
-- [DeepWiki](https://deepwiki.com/VChet/telegram-ad-filter/7-contributing)
-
 ## Development
 
 1. [Fork](https://github.com/VChet/telegram-ad-filter/fork) and download this repository.
 1. Make your changes in `tg-ad-filter.user.js`.
 1. Commit your changes.
 1. Make a pull request.
+
+<!-- Badges -->
+[version-img]: https://img.shields.io/github/tag/VChet/telegram-ad-filter?label=version&style=flat-square
+[version-href]: https://github.com/VChet/telegram-ad-filter/tags
+[install-img]: https://img.shields.io/badge/install-UserJS-00adad?style=flat-square
+[install-href]: https://github.com/VChet/telegram-ad-filter/raw/master/tg-ad-filter.user.js
+[prs-welcome-img]: https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square
+[deep-wiki-img]: https://img.shields.io/badge/ask-DeepWiki-blue?style=flat-square
+[deep-wiki-href]: https://deepwiki.com/VChet/telegram-ad-filter
